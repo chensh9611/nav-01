@@ -80,3 +80,9 @@ $("input").focus(() =>{
 $("input").blur(() =>{
     keypress()
 })
+$("button").click(() =>{
+    setTimeout(() =>{
+        $("input:text").val("");
+    },10)
+
+});
