@@ -49,7 +49,7 @@ render()
 $('.addButton')
     .on('click', (n => {
         let url = window.prompt('请输入你要添加的网址！')
-        if (url.indexOf('http' !== 0)) {
+        if (url.indexOf('http') !== 0) {
             url = 'https://' + url
         }
         hashMap.push({
