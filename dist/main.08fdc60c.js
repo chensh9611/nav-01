@@ -191,5 +191,10 @@ $("input").focus(function () {
 $("input").blur(function () {
   keypress();
 });
+$("button").click(function () {
+  setTimeout(function () {
+    $("input:text").val("");
+  }, 10);
+});
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.436dc6a1.js.map
+//# sourceMappingURL=main.08fdc60c.js.map
